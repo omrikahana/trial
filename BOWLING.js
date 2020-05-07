@@ -9091,9 +9091,9 @@ p.nominalBounds = new cjs.Rectangle(-276,-201,552,402);
 			self.gotoAndPlay(1);
 			
 		}
-		var st=createjs.Sound.registerSound("/sounds/strike.mp3", "strike");
-		var br=createjs.Sound.registerSound("/sounds/break.mp3", "break");
-		var BK=createjs.Sound.registerSound("/sounds/background.mp3", "BK");
+		var st=createjs.Sound.registerSound("sounds/strike.mp3", "strike");
+		var br=createjs.Sound.registerSound("sounds/break.mp3", "break");
+		var BK=createjs.Sound.registerSound("sounds/background.mp3", "BK");
 	}
 	this.frame_1 = function() {
 		this.start = undefined;
